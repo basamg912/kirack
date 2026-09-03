@@ -1,0 +1,11 @@
+**/logs/
+**/wandb/
+**/.env
+.zed/
+.vscode/
+.claude/
+outputs/
+**/__pycache__/
+**/kapex0_description/
+**/KAPEX0*
+**/kapex0.py

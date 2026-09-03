@@ -1,0 +1,44 @@
+{
+    "venvPath": ".",
+    "venv": "sy-isaac",
+    "pythonVersion": "3.10",
+    "pythonPlatform": "Linux",
+
+    "include": ["source", "scripts"],
+
+    "exclude": [
+        "**/__pycache__",
+        "**/_isaac_sim",
+        "**/docs",
+        "**/logs",
+        "**/build",
+        "**/*.egg-info",
+        "logs",
+        "outputs",
+        "wandb",
+        "experiments",
+        "local_ex",
+        ".git",
+        ".vscode"
+    ],
+
+    "extraPaths": [
+        "source/kirack",
+        "/home/sybae/sy-mimic/IsaacLab/source/isaaclab",
+        "/home/sybae/sy-mimic/IsaacLab/source/isaaclab_assets",
+        "/home/sybae/sy-mimic/IsaacLab/source/isaaclab_contrib",
+        "/home/sybae/sy-mimic/IsaacLab/source/isaaclab_mimic",
+        "/home/sybae/sy-mimic/IsaacLab/source/isaaclab_rl",
+        "/home/sybae/sy-mimic/IsaacLab/source/isaaclab_tasks"
+    ],
+
+    "useLibraryCodeForTypes": true,
+    "typeCheckingMode": "basic",
+    "enableTypeIgnoreComments": true,
+
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none",
+    "reportGeneralTypeIssues": "none",
+    "reportOptionalMemberAccess": "warning",
+    "reportPrivateUsage": "warning"
+}

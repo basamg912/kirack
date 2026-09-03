@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel", "toml"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kirack"
+version = "0.0.1"
+requires-python = ">=3.10"
+authors = [{name = "Sangyun Bae"}]
+dependencies = ["psutil"]
+
+[tool.setuptools.packages.find]
+where = ["."]

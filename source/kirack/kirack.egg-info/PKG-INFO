@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: kirack
+Version: 0.0.1
+Home-page: https://github.com/isaac-sim/IsaacLab.git
+Author: Sangyun Bae
+Maintainer: Isaac Lab Project Developers
+Requires-Python: >=3.10
+Requires-Dist: psutil
+Dynamic: home-page
+Dynamic: maintainer
+Dynamic: requires-python
